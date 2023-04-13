@@ -60,7 +60,7 @@ composer install
 ```bash
 mysql -u <username> -p <nama_database> < db_puskesmas.sql
 ```
-3. Buka file [config.php](https://github.com/laminal-falah/Sistem-Informasi-Puskesmas/blob/master/config/config.php)
+3. Buka file [config.php]
 ```php
 $folder = "Sesuaikan dengan root folder aplikasi";
 define('APPNAME', "Isi nama aplikasi");
@@ -72,3 +72,7 @@ define('DB_DATABASE', ''); # Sesuaikan dengan nama database
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', ''); # Jika menggunakan password, wajib diisi
 ```
+
+
+USER
+superadmin : 12345678
